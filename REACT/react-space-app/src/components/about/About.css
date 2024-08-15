@@ -1,0 +1,29 @@
+
+.about-container {
+    display: center; /* Usa flexbox para centrar el contenido */
+    flex-direction: column; /* Alinea los elementos en una columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente (si es necesario) */
+    max-width: 450px;
+    width: 400%; /* Asegura que el contenedor ocupe el 100% del ancho disponible */
+    margin: 100px auto; /* Ajusta el margen superior e inferior y centra horizontalmente */
+    padding: 10px; /* Ajusta el padding al tamaño adecuado */
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-photo {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.about-name,
+.about-contact,
+.about-description {
+    margin: 10px 0;
+    font-size: 16px;
+}
